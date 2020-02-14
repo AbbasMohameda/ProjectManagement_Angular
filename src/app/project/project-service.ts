@@ -43,7 +43,7 @@ export class ProjectService {
       var userBody = JSON.stringify(project);
       var headerOptions = new Headers({'Content-Type':'application/json'});
       var requestOptions = new RequestOptions({headers : headerOptions});
-      return this._http.put(this.baseUrl, userBody, requestOptions);
+      return this._http.put(this.baseUrl+'/Update/', userBody, requestOptions);
       }
     
 

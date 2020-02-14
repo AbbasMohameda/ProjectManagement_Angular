@@ -5,12 +5,19 @@ import { UserComponent } from './user/user.component';
 import { ProjectComponent } from './project/project.component';
 import { AddtaskComponent } from './task/addtask/addtask.component';
 import { ViewtaskComponent } from './task/viewtask/viewtask.component';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
 
   {
     path: 'user',
     component: UserComponent,
+    data: { preload: true }
+
+  },
+  {
+    path: 'home',
+    component: HomeComponent,
     data: { preload: true }
 
   },

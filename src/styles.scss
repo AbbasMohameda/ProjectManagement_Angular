@@ -1,3 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 
+.navbar-default
+{
+    background-color: currentColor !important;
+}
+.navbar-default .navbar-nav>li>a 
+{
+    color:#FFFFFF !important;
+}
+.navbar-brand
+{
+    color:#FFFFFF !important;
+}
+thead{
+    background-color : lightgray !important;
+}

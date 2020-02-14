@@ -20,6 +20,7 @@ import { TaskPopupComponent } from './task/modal/task-modal/task-popup.component
 import { ViewtaskComponent } from './task/viewtask/viewtask.component';
 import { UserModalComponent } from './user/Modal/UserModal/user-modal.component';
 import { APP_BASE_HREF } from '@angular/common';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
@@ -43,6 +44,7 @@ import { APP_BASE_HREF } from '@angular/common';
     AddtaskComponent,
     TaskPopupComponent,
     ViewtaskComponent,
+    HomeComponent,
   ],
   entryComponents: [
     UserModalComponent,
